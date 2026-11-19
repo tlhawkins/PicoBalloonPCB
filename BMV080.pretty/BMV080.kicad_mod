@@ -1,0 +1,118 @@
+(footprint "BMV080"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9b61f9ea-1597-4d6d-8337-6318bd308bdc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BMV080"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "219e43e5-a8fd-480a-aec3-5ef7ac29d2de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "397dd246-0490-482c-89e4-c47d4579f632")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Full Sensor footprint"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d79cc69-b60f-4d7d-839a-866d60cb344f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 3 -7)
+		(end -3 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f76176b9-161a-46fe-9326-a29c4b49d985")
+	)
+	(fp_rect
+		(start -3 -11.5)
+		(end 3 11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1eb0599a-53af-41e0-b097-5fe74a271057")
+	)
+	(fp_text user "BMV080"
+		(at -3 9.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "26a33f58-9fb3-4f3e-8bdf-8f9deb0e5261")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "TH Pad"
+		(at -2.5 -8.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "79f589c5-89e7-4d64-adc3-535e42cd66e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f7a846e9-ab0e-4ef6-89a0-24a6b1263233")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
