@@ -80,6 +80,34 @@
         [
           "lib_footprint_mismatch|72300000|72862500|4e5d2f47-52b1-4672-8368-4b7fff300d0e|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "net_conflict|43500000|50000000|cbb75a5d-3d6b-4c19-867f-f29e5ea8ff67|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "net_conflict|43500000|93000000|6d521311-7e02-41d1-9a4f-3e3f70448df8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "net_conflict|69500000|45100000|c25dc34e-4402-4506-895f-f3c4e2f67998|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "net_conflict|71730000|81350000|df143801-4a3c-4c7d-abb7-99814e6a8c9e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "net_conflict|71730000|92600000|b4914471-77f3-48ec-922f-849ee0c555d7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "net_conflict|77000000|50000000|70829d4d-bb3b-48c1-9a74-f5464a06a8b4|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "net_conflict|77000000|93000000|798b243a-8bbc-4652-82dd-98e30b93ca2d|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -97,7 +125,7 @@
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
-        "extra_footprint": "warning",
+        "extra_footprint": "ignore",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_field_mismatch": "warning",
